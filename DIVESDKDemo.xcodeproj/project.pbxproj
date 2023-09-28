@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0167EAC290656C800A75DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0167EAB290656C800A75DEE /* AppDelegate.swift */; };
+		D0167EB5290656CA00A75DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0167EB4290656CA00A75DEE /* Assets.xcassets */; };
+		D0167EB8290656CA00A75DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0167EB6290656CA00A75DEE /* LaunchScreen.storyboard */; };
+		D0167EC6290666D200A75DEE /* ConfigDemo.json in Resources */ = {isa = PBXBuildFile; fileRef = D0167EC52906639D00A75DEE /* ConfigDemo.json */; };
+		D02023632907F1F5000DA7E9 /* DIVEOnlineSDK_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02023622907F1F5000DA7E9 /* DIVEOnlineSDK_VC.swift */; };
+		D06873CA2AC5AA9F00317FE7 /* DIVEOnlineSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D06873C92AC5AA9F00317FE7 /* DIVEOnlineSDK */; };
+		D06873CC2AC5AA9F00317FE7 /* DIVESDK in Frameworks */ = {isa = PBXBuildFile; productRef = D06873CB2AC5AA9F00317FE7 /* DIVESDK */; };
+		D0A582CC2982758B00B00BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A582CB2982758B00B00BE7 /* Main.storyboard */; };
+		D0D4386A29508A3C002F602E /* DIVESDK_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4386929508A3C002F602E /* DIVESDK_VC.swift */; };
+		D0F0457D2950727A00CD3702 /* Result_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0457C2950727A00CD3702 /* Result_VC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D074B7122948910800075A7F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D0167EA8290656C800A75DEE /* DIVESDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIVESDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0167EAB290656C800A75DEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0167EB4290656CA00A75DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0167EB7290656CA00A75DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0167EB9290656CA00A75DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0167EC52906639D00A75DEE /* ConfigDemo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ConfigDemo.json; sourceTree = "<group>"; };
+		D02023622907F1F5000DA7E9 /* DIVEOnlineSDK_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIVEOnlineSDK_VC.swift; sourceTree = "<group>"; };
+		D0A582CB2982758B00B00BE7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D0D4386929508A3C002F602E /* DIVESDK_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIVESDK_VC.swift; sourceTree = "<group>"; };
+		D0F0457C2950727A00CD3702 /* Result_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result_VC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0167EA5290656C800A75DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06873CA2AC5AA9F00317FE7 /* DIVEOnlineSDK in Frameworks */,
+				D06873CC2AC5AA9F00317FE7 /* DIVESDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0167E9F290656C800A75DEE = {
+			isa = PBXGroup;
+			children = (
+				D0167EAA290656C800A75DEE /* DIVESDKDemo */,
+				D0167EA9290656C800A75DEE /* Products */,
+				D04B2D852937862E005978B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0167EA9290656C800A75DEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0167EA8290656C800A75DEE /* DIVESDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0167EAA290656C800A75DEE /* DIVESDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D0A582CB2982758B00B00BE7 /* Main.storyboard */,
+				D0167EAB290656C800A75DEE /* AppDelegate.swift */,
+				D0167EC52906639D00A75DEE /* ConfigDemo.json */,
+				D02023622907F1F5000DA7E9 /* DIVEOnlineSDK_VC.swift */,
+				D0D4386929508A3C002F602E /* DIVESDK_VC.swift */,
+				D0F0457C2950727A00CD3702 /* Result_VC.swift */,
+				D0167EB4290656CA00A75DEE /* Assets.xcassets */,
+				D0167EB6290656CA00A75DEE /* LaunchScreen.storyboard */,
+				D0167EB9290656CA00A75DEE /* Info.plist */,
+			);
+			path = DIVESDKDemo;
+			sourceTree = "<group>";
+		};
+		D04B2D852937862E005978B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0167EA7290656C800A75DEE /* DIVESDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0167EBC290656CA00A75DEE /* Build configuration list for PBXNativeTarget "DIVESDKDemo" */;
+			buildPhases = (
+				D0167EA4290656C800A75DEE /* Sources */,
+				D0167EA5290656C800A75DEE /* Frameworks */,
+				D0167EA6290656C800A75DEE /* Resources */,
+				D074B7122948910800075A7F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DIVESDKDemo;
+			packageProductDependencies = (
+				D06873C92AC5AA9F00317FE7 /* DIVEOnlineSDK */,
+				D06873CB2AC5AA9F00317FE7 /* DIVESDK */,
+			);
+			productName = DVSSDK;
+			productReference = D0167EA8290656C800A75DEE /* DIVESDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0167EA0290656C800A75DEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D0167EA7290656C800A75DEE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D0167EA3290656C800A75DEE /* Build configuration list for PBXProject "DIVESDKDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0167E9F290656C800A75DEE;
+			packageReferences = (
+				D06873C82AC5AA9F00317FE7 /* XCRemoteSwiftPackageReference "DIVESDKIOS" */,
+			);
+			productRefGroup = D0167EA9290656C800A75DEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0167EA7290656C800A75DEE /* DIVESDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0167EA6290656C800A75DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0167EB8290656CA00A75DEE /* LaunchScreen.storyboard in Resources */,
+				D0A582CC2982758B00B00BE7 /* Main.storyboard in Resources */,
+				D0167EB5290656CA00A75DEE /* Assets.xcassets in Resources */,
+				D0167EC6290666D200A75DEE /* ConfigDemo.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0167EA4290656C800A75DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0167EAC290656C800A75DEE /* AppDelegate.swift in Sources */,
+				D0F0457D2950727A00CD3702 /* Result_VC.swift in Sources */,
+				D02023632907F1F5000DA7E9 /* DIVEOnlineSDK_VC.swift in Sources */,
+				D0D4386A29508A3C002F602E /* DIVESDK_VC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0167EB6290656CA00A75DEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0167EB7290656CA00A75DEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0167EBA290656CA00A75DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0167EBB290656CA00A75DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0167EBD290656CA00A75DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CW463USMQ;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DIVESDKDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "VeriScan needs access to your camera to take pictures or scan barcodes";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.230928.1;
+				PRODUCT_BUNDLE_IDENTIFIER = net.IDScan.DIVESDK.DemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0167EBE290656CA00A75DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CW463USMQ;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DIVESDKDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "VeriScan needs access to your camera to take pictures or scan barcodes";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.230928.1;
+				PRODUCT_BUNDLE_IDENTIFIER = net.IDScan.DIVESDK.DemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0167EA3290656C800A75DEE /* Build configuration list for PBXProject "DIVESDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0167EBA290656CA00A75DEE /* Debug */,
+				D0167EBB290656CA00A75DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0167EBC290656CA00A75DEE /* Build configuration list for PBXNativeTarget "DIVESDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0167EBD290656CA00A75DEE /* Debug */,
+				D0167EBE290656CA00A75DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D06873C82AC5AA9F00317FE7 /* XCRemoteSwiftPackageReference "DIVESDKIOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IDScanNet/DIVESDKIOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.230928.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D06873C92AC5AA9F00317FE7 /* DIVEOnlineSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D06873C82AC5AA9F00317FE7 /* XCRemoteSwiftPackageReference "DIVESDKIOS" */;
+			productName = DIVEOnlineSDK;
+		};
+		D06873CB2AC5AA9F00317FE7 /* DIVESDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D06873C82AC5AA9F00317FE7 /* XCRemoteSwiftPackageReference "DIVESDKIOS" */;
+			productName = DIVESDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D0167EA0290656C800A75DEE /* Project object */;
+}

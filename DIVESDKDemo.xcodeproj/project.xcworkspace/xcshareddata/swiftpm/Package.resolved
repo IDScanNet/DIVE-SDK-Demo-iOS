@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "b2fa556e4e48cbf06cf8c63def138c98f4b811fa",
+        "version" : "5.8.0"
+      }
+    },
+    {
+      "identity" : "divesdkios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IDScanNet/DIVESDKIOS.git",
+      "state" : {
+        "revision" : "2db6cad8c4e8bb7d52292de6827756f273217a7f",
+        "version" : "1.230928.1"
+      }
+    },
+    {
+      "identity" : "idscaniddetectorios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IDScanNet/IDScanIDDetectorIOS.git",
+      "state" : {
+        "revision" : "feff3e080e93d7cdd5e4535abd46f79a02771463",
+        "version" : "1.220127.1"
+      }
+    },
+    {
+      "identity" : "idscantoolsios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IDScanNet/IDScanToolsIOS.git",
+      "state" : {
+        "revision" : "af61a5ca1137a1af95858c166094425afc278795",
+        "version" : "1.230616.1"
+      }
+    }
+  ],
+  "version" : 2
+}
