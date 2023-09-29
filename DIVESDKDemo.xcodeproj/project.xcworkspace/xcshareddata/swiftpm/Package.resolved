@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/IDScanNet/DIVESDKIOS.git",
       "state" : {
-        "revision" : "2db6cad8c4e8bb7d52292de6827756f273217a7f",
-        "version" : "1.230928.1"
+        "revision" : "43ab71afb93b8a7362c58e43a2ff3d574e356a5a",
+        "version" : "1.231005.2"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/IDScanNet/IDScanIDDetectorIOS.git",
       "state" : {
-        "revision" : "feff3e080e93d7cdd5e4535abd46f79a02771463",
-        "version" : "1.220127.1"
+        "revision" : "4f90def4b9cd9765f9336070d1a4bb1bbbb5218d",
+        "version" : "1.231002.2"
       }
     },
     {
