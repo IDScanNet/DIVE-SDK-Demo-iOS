@@ -54,8 +54,8 @@ class DIVESDK_VC: UIViewController, DIVESDKDelegate {
     }
     
     func diveSDKSendingDataProgress(sdk: Any, progress: Float, requestTime: TimeInterval) {
-        let progressPercent = requestTime > 1 ? ": \(round((progress * 100) * 100) / 100.0)%" : ""
-        let progressStr = progress == 1 ? "Validation" : "Uploading data\(progressPercent)"
+        let progressPercent = "\(round((progress * 100) * 100) / 100.0)%"
+        let progressStr = progress == 1 ? "Validation" : "Uploading data: \(progressPercent)"
         self.showWaitingAlert(message: "💭\n\n\(progressStr)")
     }
     

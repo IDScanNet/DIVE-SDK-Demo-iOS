@@ -82,8 +82,8 @@ class DIVEOnlineSDK_VC: UIViewController, DIVESDKDelegate {
     }
     
     func diveSDKSendingDataProgress(sdk: Any, progress: Float, requestTime: TimeInterval) {
-        let progressPercent = requestTime > 1 ? ": \(round((progress * 100) * 100) / 100.0)%" : ""
-        let progressStr = progress == 1 ? "Validation" : "Uploading data\(progressPercent)"
+        let progressPercent = "\(round((progress * 100) * 100) / 100.0)%"
+        let progressStr = progress == 1 ? "Validation" : "Uploading data: \(progressPercent)"
         self.showWaitingAlert(message: "💭\n\n\(progressStr)")
     }
 
@@ -101,7 +101,7 @@ extension DIVEOnlineSDK {
         let url =  baseURL + "/private/Applicants"
         let params = ["firstName" : <# First name #>, "lastName" : <# Last name #>, "phone" : <# Phone #>]
         
-        DIVENetwork.request(url: url, method: .post, parameters: params, token: <# Put your token here #>) { result in
+        DIVENetwork().request(url: url, method: "POST", parameters: params, token: <# Put your token here #>) { result in
             switch result {
                 case .success(let data):
                     if let applicantId = data["applicantId"] as? String {

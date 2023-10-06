@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D00052382ACE8BBA007398E5 /* DIVEOnlineSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D00052372ACE8BBA007398E5 /* DIVEOnlineSDK */; };
-		D000523A2ACE8BBA007398E5 /* DIVESDK in Frameworks */ = {isa = PBXBuildFile; productRef = D00052392ACE8BBA007398E5 /* DIVESDK */; };
 		D0167EAC290656C800A75DEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0167EAB290656C800A75DEE /* AppDelegate.swift */; };
 		D0167EB5290656CA00A75DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0167EB4290656CA00A75DEE /* Assets.xcassets */; };
 		D0167EB8290656CA00A75DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0167EB6290656CA00A75DEE /* LaunchScreen.storyboard */; };
 		D0167EC6290666D200A75DEE /* ConfigDemo.json in Resources */ = {isa = PBXBuildFile; fileRef = D0167EC52906639D00A75DEE /* ConfigDemo.json */; };
+		D01706DC2AD01ABB00863D9B /* DIVEOnlineSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D01706DB2AD01ABB00863D9B /* DIVEOnlineSDK */; };
+		D01706DE2AD01ABB00863D9B /* DIVESDK in Frameworks */ = {isa = PBXBuildFile; productRef = D01706DD2AD01ABB00863D9B /* DIVESDK */; };
 		D02023632907F1F5000DA7E9 /* DIVEOnlineSDK_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02023622907F1F5000DA7E9 /* DIVEOnlineSDK_VC.swift */; };
 		D06873CF2AC6B41600317FE7 /* DIVE SDK.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06873CE2AC6B41600317FE7 /* DIVE SDK.storyboard */; };
 		D06873D22AC6B46700317FE7 /* DIVE Online SDK.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06873D12AC6B46700317FE7 /* DIVE Online SDK.storyboard */; };
 		D06873D62AC6D29900317FE7 /* DIVEOnlineSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D06873D52AC6D29900317FE7 /* DIVEOnlineSDK */; };
 		D06873D82AC6D29900317FE7 /* DIVESDK in Frameworks */ = {isa = PBXBuildFile; productRef = D06873D72AC6D29900317FE7 /* DIVESDK */; };
 		D0A582CC2982758B00B00BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A582CB2982758B00B00BE7 /* Main.storyboard */; };
+		D0C425C82ACFD94B00F75F58 /* DIVEOnlineSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D0C425C72ACFD94B00F75F58 /* DIVEOnlineSDK */; };
+		D0C425CA2ACFD94B00F75F58 /* DIVESDK in Frameworks */ = {isa = PBXBuildFile; productRef = D0C425C92ACFD94B00F75F58 /* DIVESDK */; };
 		D0D4386A29508A3C002F602E /* DIVESDK_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4386929508A3C002F602E /* DIVESDK_VC.swift */; };
 		D0F0457D2950727A00CD3702 /* Result_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0457C2950727A00CD3702 /* Result_VC.swift */; };
 /* End PBXBuildFile section */
@@ -57,9 +59,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D06873D62AC6D29900317FE7 /* DIVEOnlineSDK in Frameworks */,
-				D000523A2ACE8BBA007398E5 /* DIVESDK in Frameworks */,
+				D0C425CA2ACFD94B00F75F58 /* DIVESDK in Frameworks */,
+				D01706DC2AD01ABB00863D9B /* DIVEOnlineSDK in Frameworks */,
+				D01706DE2AD01ABB00863D9B /* DIVESDK in Frameworks */,
 				D06873D82AC6D29900317FE7 /* DIVESDK in Frameworks */,
-				D00052382ACE8BBA007398E5 /* DIVEOnlineSDK in Frameworks */,
+				D0C425C82ACFD94B00F75F58 /* DIVEOnlineSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +156,10 @@
 			packageProductDependencies = (
 				D06873D52AC6D29900317FE7 /* DIVEOnlineSDK */,
 				D06873D72AC6D29900317FE7 /* DIVESDK */,
-				D00052372ACE8BBA007398E5 /* DIVEOnlineSDK */,
-				D00052392ACE8BBA007398E5 /* DIVESDK */,
+				D0C425C72ACFD94B00F75F58 /* DIVEOnlineSDK */,
+				D0C425C92ACFD94B00F75F58 /* DIVESDK */,
+				D01706DB2AD01ABB00863D9B /* DIVEOnlineSDK */,
+				D01706DD2AD01ABB00863D9B /* DIVESDK */,
 			);
 			productName = DVSSDK;
 			productReference = D0167EA8290656C800A75DEE /* DIVESDKDemo.app */;
@@ -184,7 +190,7 @@
 			);
 			mainGroup = D0167E9F290656C800A75DEE;
 			packageReferences = (
-				D00052362ACE8BBA007398E5 /* XCRemoteSwiftPackageReference "DIVESDKIOS" */,
+				D01706DA2AD01ABB00863D9B /* XCRemoteSwiftPackageReference "DIVESDKIOS" */,
 			);
 			productRefGroup = D0167EA9290656C800A75DEE /* Products */;
 			projectDirPath = "";
@@ -441,25 +447,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D00052362ACE8BBA007398E5 /* XCRemoteSwiftPackageReference "DIVESDKIOS" */ = {
+		D01706DA2AD01ABB00863D9B /* XCRemoteSwiftPackageReference "DIVESDKIOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/IDScanNet/DIVESDKIOS.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.231005.1;
+				minimumVersion = 1.231005.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D00052372ACE8BBA007398E5 /* DIVEOnlineSDK */ = {
+		D01706DB2AD01ABB00863D9B /* DIVEOnlineSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D00052362ACE8BBA007398E5 /* XCRemoteSwiftPackageReference "DIVESDKIOS" */;
+			package = D01706DA2AD01ABB00863D9B /* XCRemoteSwiftPackageReference "DIVESDKIOS" */;
 			productName = DIVEOnlineSDK;
 		};
-		D00052392ACE8BBA007398E5 /* DIVESDK */ = {
+		D01706DD2AD01ABB00863D9B /* DIVESDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D00052362ACE8BBA007398E5 /* XCRemoteSwiftPackageReference "DIVESDKIOS" */;
+			package = D01706DA2AD01ABB00863D9B /* XCRemoteSwiftPackageReference "DIVESDKIOS" */;
 			productName = DIVESDK;
 		};
 		D06873D52AC6D29900317FE7 /* DIVEOnlineSDK */ = {
@@ -467,6 +473,14 @@
 			productName = DIVEOnlineSDK;
 		};
 		D06873D72AC6D29900317FE7 /* DIVESDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DIVESDK;
+		};
+		D0C425C72ACFD94B00F75F58 /* DIVEOnlineSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DIVEOnlineSDK;
+		};
+		D0C425C92ACFD94B00F75F58 /* DIVESDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DIVESDK;
 		};
