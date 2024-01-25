@@ -29,7 +29,7 @@ class DIVEOnlineSDK_VC: UIViewController, DIVESDKDelegate {
         
         DIVEOnlineSDK.getApplicantID(baseURL: self.baseURL) { [weak self] result in
             guard let strongSelf = self else { return }
-            // MARK: - <# #>
+            // MARK: -
             switch result {
                 case .success(let applicantID):
                     strongSelf.sdk = DIVEOnlineSDK(applicantID: applicantID, integrationID: <# Put your integration ID here #>, token: <# Put your token here #>, baseURL: strongSelf.baseURL + "/public", delegate: strongSelf)

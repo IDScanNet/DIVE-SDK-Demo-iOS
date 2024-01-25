@@ -1,21 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "alamofire",
+      "identity" : "dive-sdk-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "location" : "https://github.com/IDScanNet/DIVE-SDK-iOS",
       "state" : {
-        "revision" : "b2fa556e4e48cbf06cf8c63def138c98f4b811fa",
-        "version" : "5.8.0"
-      }
-    },
-    {
-      "identity" : "divesdkios",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/IDScanNet/DIVESDKIOS.git",
-      "state" : {
-        "revision" : "9521c255409d9c34e23ccffa4a273946714a6eba",
-        "version" : "1.231005.3"
+        "revision" : "95bad6a38dbbfbff34c6e673b38b7d21c2021ae4",
+        "version" : "1.240125.1"
       }
     },
     {
@@ -23,7 +14,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/IDScanNet/IDScanIDDetectorIOS.git",
       "state" : {
-        "revision" : "4f90def4b9cd9765f9336070d1a4bb1bbbb5218d",
+        "revision" : "d8df86680be00fbab065d5568b26ce0252fc5a77",
         "version" : "1.231002.2"
       }
     },
