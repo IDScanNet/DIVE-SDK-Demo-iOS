@@ -39,27 +39,27 @@ class DIVESDK_VC: UIViewController, DIVESDKDelegate {
     }
     
     // MARK: - DIVESDKDelegate
+    
+    func diveSDKDataPrepaired(sdk: IDIVESDK, data: DIVESDKData) {
+        sdk.close()
+        
+        //You can do something with the captured data and decide whether to send it.
+        self.showWaitingAlert(message: "💭\n\nUploading data")
+        sdk.sendData(data: data)
+    }
 
-    func diveSDKResult(sdk: Any, result: [String : Any]) {
+    func diveSDKResult(sdk: IDIVESDK, result: [String : Any]) {
         self.dismissWaitingAlert()
         self.openResult(result: result)
     }
     
-    func diveSDKSendingDataStarted(sdk: Any) {
-        if let sdk = sdk as? DIVESDK {
-            sdk.close()
-        }
-        
-        self.showWaitingAlert(message: "💭\n\nUploading data")
-    }
-    
-    func diveSDKSendingDataProgress(sdk: Any, progress: Float, requestTime: TimeInterval) {
+    func diveSDKSendingDataProgress(sdk: IDIVESDK, progress: Float, requestTime: TimeInterval) {
         let progressPercent = "\(round((progress * 100) * 100) / 100.0)%"
         let progressStr = progress == 1 ? "Validation" : "Uploading data: \(progressPercent)"
         self.showWaitingAlert(message: "💭\n\n\(progressStr)")
     }
     
-    func diveSDKError(sdk: Any, error: Error) {
+    func diveSDKError(sdk: IDIVESDK, error: Error) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.showOKAlert(title: "❗️\nError", message: error.localizedDescription)
         }

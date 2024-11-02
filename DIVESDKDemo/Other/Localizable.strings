@@ -1,0 +1,78 @@
+/* 
+  Localizable.strings
+  DIVESDKDemo
+
+  Created by AKorotkov on 19.09.2024.
+  
+*/
+
+"IDScanCaptureDocumentListTitle" = "ID Validation";
+"IDScanCaptureDocumentListSectionHeader" = "Select document type";
+
+"IDScanCaptureDocumentStepsTitle" = "ID Validation";
+"IDScanCaptureDocumentStepsTypeSectionHeader" = "Document type";
+"IDScanCaptureDocumentStepsStepsSectionHeader" = "Steps";
+"IDScanCaptureDocumentStepsStepCellStepNumber" = "Step";
+"IDScanCaptureDocumentStepsStepCellStepComplete" = "Complete";
+
+"IDScanCaptureStepPreviewTitle" = "Step preview";
+
+"IDScanCaptureSubmitButton" = "Submit";
+"IDScanCaptureContinueButton" = "Continue";
+"IDScanCaptureStartButton" = "→  Start";
+"IDScanCaptureAddPhotoButton" = "Add Photo";
+"IDScanCaptureNextStepButton" = "Next Step";
+"IDScanCaptureCompleteButton" = "Complete";
+"IDScanCaptureBackButton" = "Back";
+"IDScanCaptureResetStepsButton" = "Reset All";
+"IDScanCaptureRetakeButton" = "Retake";
+
+"IDScanCaptureModeCamera" = "Camera";
+"IDScanCaptureModeManual" = "Manual";
+
+"IDScanCaptureYes" = "Yes";
+"IDScanCaptureNo" = "No";
+"IDScanCaptureCancel" = "Cancel";
+"IDScanCaptureSuccess" = "Success";
+
+"IDScanCaptureCancelAlertTitle" = "Cancellation";
+"IDScanCaptureCancelAlertMessage" = "Are you sure? All steps will be reset?";
+
+"IDScanCaptureResetAlertTitle" = "Reset All Steps";
+"IDScanCaptureResetAlertMessage" = "Are you sure you want to reset all steps?";
+"IDScanCaptureErrorAlertTitle" = "Error";
+
+"IDScanCaptureDocumentDriverLicenseName" = "Driver’s License";
+"IDScanCaptureDocumentPassportName" = "Passport";
+"IDScanCaptureDocumentPassportCardName" = "Passport Card";
+"IDScanCaptureDocumentGreenCardOrEmploymentAuthorizationName" = "Green Card or Employment Authorization";
+"IDScanCaptureDocumentInternationalIDName" = "International ID";
+
+"IDScanCaptureRealFaceFront1Hint" = "Please, look at the camera";
+"IDScanCaptureRealFaceFront2Hint" = "Face the camera";
+"IDScanCaptureRealFaceTurnRightHint" = "Turn your head to the Right";
+"IDScanCaptureRealFaceTurnLeftHint" = "Turn your head to the Left";
+
+"IDScanCaptureScanningFrontHint" = "Scan the front side of the %@";
+"IDScanCaptureUploadingFrontHint" = "Upload the front side of the %@";
+"IDScanCaptureScanningBackHint" = "Scan the back side of the %@";
+"IDScanCaptureUploadingBackHint" = "Upload the back side of the %@";
+"IDScanCaptureScanningFaceHint" = "Scan the face";
+"IDScanCaptureUploadingFaceHint" = "Upload the face";
+"IDScanCaptureUploadingHintDescription" = "Please make sure that light glare don't obscure photo and other information";
+
+"IDScanCaptureFrontStepBottomTabName" = "Front";
+"IDScanCaptureBackStepBottomTabName" = "Back";
+"IDScanCaptureFaceStepBottomTabName" = "Face";
+
+"IDScanCaptureErrorNoDocumentFront" = "The image has no documents or the document is of the wrong type";
+"IDScanCaptureErrorNoMRZ" = "The image has no MRZ or it is of poor quality";
+"IDScanCaptureErrorNoPDF" = "The image has no PDF or it is of poor quality";
+"IDScanCaptureErrorNoFace" = "The image has no Face or it is of poor quality";
+"IDScanCaptureErrorWrongLicense" = "Wrong license key";
+"IDScanCaptureErrorWrongLicenseDescription" = "License key has expired or is wrong Please contact support";
+"IDScanCaptureErrorCameraPermission" = "The %@ has not been given a permission to your camera.\n\nPlease check the Privacy Settings:\nSettings -> %@ -> Privacy -> Camera";
+
+"IDScanCaptureScanningHintsNeedMoreLight" = "need more light";
+"IDScanCaptureScanningHintsTooDark" = "too dark";
+"IDScanCaptureScanningHintsDeviceMoving" = "device is moving too much";

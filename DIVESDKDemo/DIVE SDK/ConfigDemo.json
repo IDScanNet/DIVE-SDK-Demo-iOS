@@ -46,14 +46,6 @@
                     }
                 },
                 {
-                    "type":"mrz",
-                    "name":"Document MRZ Barcode",
-                    "mode":{
-                        "uploader":true,
-                        "video":true
-                    }
-                },
-                {
                     "type":"face",
                     "name":"Face",
                     "mode":{
