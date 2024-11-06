@@ -1,6 +1,8 @@
 {
-    "resizeUploadedImage":-1,
     "autoContinue":true,
+    "autoStart":false,
+    "autoSubmit":false,
+    "isShowDocumentTypeSelect":false,
     "realFaceMode":"auto",
     "documentTypes":[
         {

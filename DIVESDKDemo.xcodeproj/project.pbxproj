@@ -484,7 +484,7 @@
 			repositoryURL = "https://github.com/IDScanNet/DIVE-SDK-iOS";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.241002.1;
+				minimumVersion = 3.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

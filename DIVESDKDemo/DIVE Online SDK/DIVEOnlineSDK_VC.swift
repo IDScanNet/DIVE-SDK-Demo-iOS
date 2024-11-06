@@ -28,24 +28,25 @@ class DIVEOnlineSDK_VC: UIViewController, DIVESDKDelegate {
         self.showWaitingAlert(message: "⚙️\n\nLoading configuration")
         
         DIVEOnlineSDK.getApplicantID(baseURL: self.baseURL) { [weak self] result in
-            guard let strongSelf = self else { return }
+            guard let self = self else { return }
+            
             // MARK: -
             switch result {
                 case .success(let applicantID):
-                    strongSelf.sdk = DIVEOnlineSDK(applicantID: applicantID, integrationID: <# Put your integration ID here #>, token: <# Put your token here #>, baseURL: strongSelf.baseURL + "/public", delegate: strongSelf)
-                    strongSelf.sdk?.updateLocation()
-                    strongSelf.sdk?.loadConfiguration() { [weak strongSelf] error in
-                        guard let strongSelf2 = strongSelf else { return }
+                    self.sdk = DIVEOnlineSDK(applicantID: applicantID, integrationID: <# Put your integration ID here #>, token: <# Put your token here #>, baseURL: self.baseURL + "/public", delegate: self)
+                    self.sdk?.updateLocation()
+                    self.sdk?.loadConfiguration() { [weak self] error in
+                        guard let self = self else { return }
                         
                         if let error = error {
-                            strongSelf2.showOKAlert(title: "❗️\nError", message: error.localizedDescription)
+                            self.showOKAlert(title: "❗️\nError", message: error.localizedDescription)
                         } else {
-                            strongSelf2.showWaitingAlert(message: "✅\n\nConfig loaded", for: 0.7)
-                            strongSelf2.startButton.isEnabled = true
+                            self.showWaitingAlert(message: "✅\n\nConfig loaded", for: 0.7)
+                            self.startButton.isEnabled = true
                         }
                     }
                 case .failure(let error):
-                    strongSelf.showOKAlert(title: "❗️\nError", message: error.localizedDescription)
+                    self.showOKAlert(title: "❗️\nError", message: error.localizedDescription)
             }
         }
     }
